@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-ca">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" minimum-scale="1.0" />
+  <meta name="author" content="Aleisha Silvera" />
+  <!-- Attach Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <title>King Frogbert - Virtual Pet</title>
+</head>
+
+<body>
+  <div class="siteContainer">
+    <header class="logo">
+      <a class="kfbLogo" href="">
+        <img src="img/kfb-logo.png" alt="King Frogbert logo">
+      </a>
+    </header>
+
+    <aside class="currentGame">
+      <p>Name:
+        <input type="text" name="playerName" id="nameInput" onkeypress="frogbert.activePlayer()"></p>
+      <p id="playerName"></p>
+      <button id="startGame" class="button">Adopt Me</button>
+      <p id="countdown"></p>
+      <p id="countdownDead"></p>
+    </aside>
+
+
+    <section class="svgContainer">
+      <object id="characterObj" data="img/character.svg" type="image/svg+xml"></object>
+    </section>
+
+    <div id="characterTextBox">
+      <div id="characterFoodText"><span></span></div>
+      <div id="characterText"></div>
+      <div id="complimentsText"></div>
+
+    </div>
+
+    <section class="controls controlsContainer">
+      <button id="happy" class="button">Happy</button>
+      <button id="sad" class="button">Sad</button>
+      <button id="sick" class="button">Sick</button>
+      <button id="angry" class="button">Angry</button>
+
+      <button id="feedPet" class="button">Feed</button>
+      <button id="compliment" class="button">Compliment</button>
+      <button id="dead" class="button">Dead</button>
+
+
+    </section>
+
+    <div id="neutral"></div>
+    <div id="dead"></div>
+    <div id="hungry"></div>
+
+
+  </div>
+  <footer>Copyright 2021 - Aleisha Silvera - 100805847</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

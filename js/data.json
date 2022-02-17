@@ -1,0 +1,160 @@
+{
+  "petQuotes": [
+    { "mood": "angry", "quote": "Quite lackluster was thine food." },
+    {
+      "mood": "angry",
+      "quote": "Thou food was of upmost disgust. Revenge will be mine!"
+    },
+    { "mood": "angry", "quote": "Time waits for no man. Feedth me now!" },
+    {
+      "mood": "angry",
+      "quote": "Why doth feed me so much? I shall not transform into Edward the blowfish"
+    },
+    { "mood": "angry", "quote": "You hath brought mere bore out of me" },
+    { "mood": "funny", "quote": "Thee crickets are as fat as butter" },
+    {
+      "mood": "funny",
+      "quote": "I would give all my Frogdom for a pot of ale"
+    },
+    {
+      "mood": "funny",
+      "quote": "Have you heardth of diet Croak? *whispers* Thy heard it's to die for"
+    },
+    {
+      "mood": "funny",
+      "quote": "Oy jester, why doth thou drive beetles when they fly?"
+    },
+    {
+      "mood": "funny",
+      "quote": "Thy don't feel like hopping today. Carry me "
+    },
+    {
+      "mood": "funny",
+      "quote": "Thy has gold since "
+    },
+    {
+      "mood": "funny",
+      "quote": "Thy do love nothing in the world so well as you: is not that strange?"
+    },
+    { "mood": "happy", "quote": "What a majestic day!" },
+    { "mood": "happy", "quote": "The world is thine oyster!" },
+    { "mood": "happy", "quote": "What should thou do thee present day" },
+    { "mood": "happy", "quote": "We meeteth again" },
+    { "mood": "happy", "quote": "True love lies beneath the ribs. The belly!" },
+    { "mood": "happy", "quote": "Sound the bell jester! We shall have a ball" },
+    { "mood": "happy", "quote": "Thou is my truest jester. Salute" },
+    { "mood": "sad", "quote": "I am fill'd with pangs of hunger" },
+    {
+      "mood": "sad",
+      "quote": "This weather is reminiscent of the darks days of Froglaland"
+    },
+    {
+      "mood": "sad",
+      "quote": "Let the frogdom know the King calls for a day of rest. Being a ruler is tiresome"
+    },
+    { "mood": "sad", "quote": "Well all's well that ends well" },
+    { "mood": "sad", "quote": "Thou seen better days." },
+    { "mood": "sad", "quote": "Thy feelth thee most sick" }
+  ],
+  "petFoods": [
+    {
+      "food": "Chocolate Ants",
+      "fillPower": 3,
+      "sickChance": 0.3,
+      "quantity": 6
+    },
+    {
+      "food": "Candied Crickets",
+      "fillPower": 6,
+      "sickChance": 0.2,
+      "quantity": 5
+    },
+    {
+      "food": "Bacon Wrapped Grasshoppers",
+      "fillPower": 8,
+      "sickChance": 0.7,
+      "quantity": 4
+    },
+    {
+      "food": "Sweet Thai Crickets",
+      "fillPower": 5,
+      "sickChance": 0.5,
+      "quantity": 9
+    },
+    {
+      "food": "White Wine Au Jus Scorpion",
+      "fillPower": 9,
+      "sickChance": 0.1,
+      "quantity": 3
+    },
+    {
+      "food": "Smoked Catepillar",
+      "fillPower": 1,
+      "sickChance": 0.6,
+      "quantity": 6
+    },
+    {
+      "food": "Sun Fried Termites",
+      "fillPower": 4,
+      "sickChance": 0.8,
+      "quantity": 3
+    },
+    { "food": "Escamoles", "fillPower": 5, "sickChance": 0.7, "quantity": 8 },
+    {
+      "food": "Curried Slugs",
+      "fillPower": 2,
+      "sickChance": 0.4,
+      "quantity": 4
+    },
+    {
+      "food": "Locust Lime Soup",
+      "fillPower": 7,
+      "sickChance": 0.3,
+      "quantity": 6
+    },
+    {
+      "food": "Beetle Brie and Lily Sugar Cheesecake",
+      "fillPower": 10,
+      "sickChance": 0.1,
+      "quantity": 2
+    },
+    {
+      "food": "Sun Fried CentiWings",
+      "fillPower": 2,
+      "sickChance": 0.7,
+      "quantity": 10
+    }
+  ],
+  "petCompliments": [
+    {
+      "phrase": "PLAYER, have thou ever toldeth that you smell like a bucket of lillies"
+    },
+    {
+      "phrase": "PLAYER, Thou is as almost most delightful as a rainbow"
+    },
+    {
+      "phrase": "Tis a good day when you're here PLAYER"
+    },
+    {
+      "phrase": "Thy never met a jester like you PLAYER"
+    },
+    {
+      "phrase": "PLAYER! Let us crack a bottle of Frine"
+    },
+    {
+      "phrase": "PLAYER, thou is the only soul that knows the true me"
+    },
+    {
+      "phrase": "PLAYER, thou make me believe in the over yonder"
+    },
+    {
+      "phrase": "PLAYER thou clean up nicely"
+    },
+    {
+      "phrase": "Let us feast and have a merry time PLAYER"
+    },
+    {
+      "phrase": "PLAYER feed me thou delightful human"
+    }
+  ]
+}

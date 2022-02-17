@@ -1,0 +1,24 @@
+{
+  "name": "tamagotchi-game-aleishasilvera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luccivera/tamagotchi-game-aleishasilvera.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luccivera/tamagotchi-game-aleishasilvera/issues"
+  },
+  "homepage": "https://github.com/luccivera/tamagotchi-game-aleishasilvera#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
