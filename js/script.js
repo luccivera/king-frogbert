@@ -1,6 +1,6 @@
 window.onload = function () {
   let characterObj = document.getElementById("characterObj").contentDocument;
-  let characterText = document.getElementById("characterText");
+
   let blushLeft = characterObj.getElementById("blushLeft");
   let blushRight = characterObj.getElementById("blushRight");
   let eyeLeft = characterObj.getElementById("eyeLeft");
@@ -168,9 +168,6 @@ window.onload = function () {
       y: 370,
       delay: 0.5,
     });
-
-    deadText = "Who put these poisoned flies on the menu";
-    characterText.innerHTML = deadText;
   }
 
   // Happy animation
@@ -193,8 +190,6 @@ window.onload = function () {
       y: 0,
       opacity: 1,
     });
-    happyText = "I am very content. Frog Laland is thriving under my rule!";
-    characterText.innerHTML = happyText;
   }
 
   // Hungry Animation
@@ -340,9 +335,6 @@ window.onload = function () {
     //   },
     //   +1
     // );
-
-    neutralText = "Guess I have to be a ruler today. Bring me my crown";
-    characterText.innerHTML = neutralText;
   }
 
   // Sad Animation
@@ -371,9 +363,6 @@ window.onload = function () {
       y: 10,
       duration: 4,
     });
-    sadText =
-      "Where are all the frogettes? Where is my court? Hello is anyone there?!";
-    characterText.innerHTML = sadText;
   }
 
   // Sick Animation
@@ -422,8 +411,5 @@ window.onload = function () {
       y: 7,
       duration: 1,
     });
-    sickText =
-      "Maybe those mesquite slugs weren't a good choice. I should've had the choclate ants instead but they told me to watch my weight.<br> Maybe it was all a ploy for my crown";
-    characterText.innerHTML = sickText;
   }
 };

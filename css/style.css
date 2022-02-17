@@ -103,22 +103,6 @@ footer {
     width: 500px;
   }
 
-  /* Styling for character chat box */
-  #characterTextBox {
-    background-color: white;
-    border: solid black 1px;
-    border-radius: 24px;
-    font-size: 14px;
-    grid-area: textBox;
-    place-self: center;
-    height: 140px;
-    overflow: scroll;
-    padding: 20px;
-    width: 500px;
-  }
-  #characterTextBox::-webkit-scrollbar {
-    display: none;
-  }
   .controls {
     grid-area: buttons;
     display: flex;
@@ -184,22 +168,6 @@ footer {
   }
 
   /* Styling for character chat box */
-  #characterTextBox {
-    background-color: white;
-    border: solid black 1px;
-    border-radius: 24px;
-    grid-area: textBox;
-    height: 100px;
-    width: 400px;
-    justify-self: center;
-    margin: 1.5rem;
-    overflow-y: scroll;
-    padding: 10px;
-  }
-
-  #characterTextBox::-webkit-scrollbar {
-    display: none;
-  }
 
   /* Interactive Button - Styling */
   .controls {
@@ -265,24 +233,7 @@ footer {
   }
 
   /* Styling for character chat box */
-  #characterTextBox {
-    background-color: white;
-    border: solid black 1px;
-    border-radius: 24px;
-    font-size: 12px;
-    grid-area: textBox;
-    height: 75px;
-    width: 300px;
-    justify-self: center;
-    overflow-y: scroll;
-    margin: 1.5rem 10%;
-    padding: 10px;
-    max-width: 70%;
-  }
 
-  #characterTextBox::-webkit-scrollbar {
-    display: none;
-  }
   /* Interactive Button - Styling */
   .controls {
     grid-area: buttons;
