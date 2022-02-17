@@ -67,9 +67,9 @@ footer {
   .siteContainer {
     display: grid;
     grid-template-areas:
-      "logo logo logo"
-      "currentGame frog buttons"
-      ". textBox buttons";
+      "logo logo "
+      "frog frog "
+      "buttons buttons";
     gap: 20px 50px;
     margin: 0 auto;
     width: 1200px;
@@ -77,18 +77,11 @@ footer {
 
   .logo {
     grid-area: logo;
-    display: flex;
-    place-self: center;
-    padding: 0 5rem;
-    width: 70%;
+    text-align: center;
   }
 
   .kfbLogo img {
-    max-width: 100%;
-  }
-  .currentGame {
-    grid-area: currentGame;
-    justify-self: end;
+    max-width: 500px;
   }
 
   /* Styling for character container */
@@ -99,14 +92,14 @@ footer {
     grid-area: frog;
     place-self: center;
     height: 500px;
-    margin-top: 20px;
+    margin: 10px 0;
     width: 500px;
   }
 
   .controls {
     grid-area: buttons;
-    display: flex;
-    flex-direction: column;
+    justify-self: center;
+    margin-bottom: 30px;
   }
 
   /* Interactive Button - Styling */
@@ -119,6 +112,7 @@ footer {
     font-family: "Lato", sans-serif;
     font-size: 14px;
     margin-bottom: 15px;
+    margin-right: 0.8rem;
     height: 30px;
     width: 120px;
   }
@@ -141,19 +135,11 @@ footer {
 
   .logo {
     grid-area: logo;
-    justify-content: center;
-    align-items: center;
-    padding: 0 7rem;
+    text-align: center;
   }
 
   .kfbLogo img {
-    max-width: 100%;
-    padding: 0 10px;
-  }
-  .currentGame {
-    grid-area: currentGame;
-    align-self: center;
-    justify-self: start;
+    max-width: 400px;
   }
 
   /* Styling for character tablet container */
@@ -167,17 +153,35 @@ footer {
     width: 400px;
   }
 
-  /* Styling for character chat box */
-
-  /* Interactive Button - Styling */
   .controls {
     grid-area: buttons;
-    display: flex;
-
-    flex-wrap: wrap;
-    column-gap: 0.5rem;
-    padding: 10px;
+    display: grid;
+    grid-template-areas:
+      "btn1 btn2 btn3"
+      "btn4 btn5 btn6";
+    gap: 0 10px;
+    justify-self: center;
   }
+
+  .btn1 {
+    grid-area: btn1;
+  }
+  .btn2 {
+    grid-area: btn2;
+  }
+  .btn3 {
+    grid-area: btn3;
+  }
+  .btn4 {
+    grid-area: btn4;
+  }
+  .btn5 {
+    grid-area: btn5;
+  }
+  .btn6 {
+    grid-area: btn6;
+  }
+  /* Interactive Button - Styling */
 
   .button {
     background-color: #bedddc;
@@ -185,10 +189,11 @@ footer {
     border: none;
     box-shadow: 0px 3px 6px #8b8b8b;
     font-family: "Lato", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 15px;
+
     height: 30px;
-    width: 130px;
+    width: 120px;
   }
 }
 
@@ -206,19 +211,14 @@ footer {
 
   .logo {
     grid-area: logo;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 0 3rem;
+    margin: 1rem 0;
+    padding: 0 2rem;
   }
 
   .kfbLogo img {
     max-width: 100%;
     padding: 0 5px;
-  }
-
-  .currentGame {
-    grid-area: currentGame;
   }
 
   /* Styling for character container */
@@ -228,27 +228,40 @@ footer {
     box-shadow: 0px 3px 6px #8b8b8b;
     grid-area: frog;
     justify-self: center;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
   }
-
-  /* Styling for character chat box */
 
   /* Interactive Button - Styling */
+
   .controls {
     grid-area: buttons;
-    display: flex;
-
-    flex-wrap: wrap;
-    column-gap: 0.5rem;
-    padding: 10px;
-    text-align: center;
+    display: grid;
+    grid-template-areas:
+      "btn1 btn2 btn3"
+      "btn4 btn5 btn6";
+    gap: 0 10px;
+    justify-self: center;
+    margin: 1.5rem 0;
   }
 
-  .controlsContainer {
-    max-height: 100px;
-    max-width: 599px;
-    text-align: center;
+  .btn1 {
+    grid-area: btn1;
+  }
+  .btn2 {
+    grid-area: btn2;
+  }
+  .btn3 {
+    grid-area: btn3;
+  }
+  .btn4 {
+    grid-area: btn4;
+  }
+  .btn5 {
+    grid-area: btn5;
+  }
+  .btn6 {
+    grid-area: btn6;
   }
 
   .button {
@@ -258,7 +271,6 @@ footer {
     box-shadow: 0px 3px 6px #8b8b8b;
     font-family: "Lato", sans-serif;
     font-size: 14px;
-
     margin-bottom: 15px;
     height: 30px;
     width: 100px;
